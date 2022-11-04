@@ -1,0 +1,15 @@
+defaults:
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: "post"
+        author: "Jane Bloggs"
+    - scope:
+        path: ""
+        type: "pages"
+      values:
+        layout: "default"
+collections:
+    publications:
+timezone: Australia/Brisbane
